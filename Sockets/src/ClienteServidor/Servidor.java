@@ -9,7 +9,7 @@ public class Servidor {
         try {
             // Creamos el socket y abrimos un puerto
             // por el cual estará a la escucha
-            ServerSocket socketServidor = new ServerSocket(9999);
+            ServerSocket socketServidor = new ServerSocket(5555);
             // Le indicamos que acepte cualquier petición de un cliente
             // y cree un socket para la comunicación con ese cliente
             Socket socketComunicacion = socketServidor.accept();

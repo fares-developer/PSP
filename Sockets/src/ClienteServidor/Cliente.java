@@ -10,7 +10,7 @@ public class Cliente {
         Scanner sc = new Scanner(System.in);
         try {
             // Creamos el socket y establecemos una conexión con el servidor
-            Socket socketCliente = new Socket("localhost", 9999);
+            Socket socketCliente = new Socket("192.168.33.212", 9999);
             // Creamos el flujo de datos de salida
             DataOutputStream flujoSalida;
 
